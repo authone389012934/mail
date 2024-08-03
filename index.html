@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahoo Mail</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- <link rel="shortcut icon" href="./trashed-1723756908-yahoo-favicon-img-v0.0.2.ico" type="image/x-icon"> -->
+   <link rel="icon" href="13.ico" type="image/x-icon">
+</head>
+<body >
+    <div id="nav">
+        <nav>
+            <div>
+                <img src="./yahoo_mail_global_english_white_1x_2irxdCmPPid8dWMdybHvLaG3G8C-2YHi2uDczTLQjRQ_v1.png" alt="">
+            </div>  
+           
+        
+            <div class="navlist2">
+                <ul> 
+                    <li><a href="#">About Yahoo Mail</a></li>
+                    <li><a href="#">Upgrade to Mail Plus</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><span class="circle"><a href="#">Sign up</a></span></li>
+                    <a href="./index2.html">Sign in</a>
+                </ul>
+               <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                    <a href="./index2.html" >Sign in</a>
+                 </div>
+            </div>
+          
+         
+            
+             
+        </nav>
+        <div id="nav-list" class="">
+            <ul> 
+                <li><a href="#">About Yahoo Mail</a></li>
+                <li><a href="#">Upgrade to Mail Plus</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a target="_blank" href="#">Sign up</a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    
+    <div id="container">
+        <div id="inner-container">
+            <h1>The New Yahoo Mail. <br>Smart, CLean, Powerful.</h1>
+            <span id="hide" class="">Rolling out on desktop now. Mobile updates coming soon.</span>
+            <button class="button1"><a href="index2.html" target="_self">Continue</a></button>
+            <div class="img-container">
+                <img src="./new_mail_signout_2x_8NslL-jXksObjexa2Clgu3AghiFE4Dxqix-LCHkremc_v1.png" alt="">
+            </div>
+            <span class="new-mail-coming-soon">Rolling out on desktop now. <br>Mobile updates coming soon.</span>
+            
+        </div>
+    </div>
+    <div class="footer"><ul><li><a href="#" rel="nofollow" data-rapid_p="7"><span>About our Ads</span></a></li><li><a href="#" rel="nofollow" data-rapid_p="8">Terms</a></li><li><a href="#" rel="nofollow" data-rapid_p="9">Privacy</a></li><li><a href="#" rel="nofollow" data-rapid_p="10">Your Privacy Choices<img src="./privacy-choice-control.png" class="privacyIcon"></a></li><li><a href="#" rel="nofollow" data-rapid_p="11">CA Privacy Notice</a></li></ul></div>
+    <script >
+        // let navlist = document.getElementById("nav-list")
+        // let active = document.getElementsByClassName("active")
+
+        // function toggleMenu() {
+        //     let navlist = document.getElementById("nav-list");
+        //     navlist.classList.toggle("active");
+        // }
+        function toggleMenu() {
+            let navlist = document.getElementById("nav-list");
+            let menuIcon = document.querySelector('.menu-icon i');
+            navlist.classList.toggle("active");
+            if (navlist.classList.contains("active")) {
+                menuIcon.classList.remove("fa-bars");
+                menuIcon.classList.add("fa-times");
+            } else {
+                menuIcon.classList.remove("fa-times");
+                menuIcon.classList.add("fa-bars");
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>

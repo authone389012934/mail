@@ -1,0 +1,476 @@
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraLight.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraLight.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraLight.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraLight.woff) format("woff");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Light.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Light.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Light.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Regular.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Regular.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Regular.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Italic.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Italic.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Italic.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Italic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Medium.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Medium.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Medium.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Semibold.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Semibold.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Semibold.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Semibold.woff) format("woff");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Bold.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Bold.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Bold.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraBold.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraBold.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraBold.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-ExtraBold.woff) format("woff");
+    font-weight: 800;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Yahoo Sans";
+    font-display: block;
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Black.eot);
+    src: url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Black.eot?#iefix) format("embedded-opentype"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Black.woff2) format("woff2"),url(https://s.yimg.com/cv/ae/sports/fonts/2017/Yahoo_Sans-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal
+}
+.button1 {
+    padding: 1rem 2.5rem;
+    color: #fff ;
+    background: linear-gradient(-84deg,#7281fb 5%,#7933f7 100%);
+    border-radius: 5px;
+    border: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+*{
+    padding: 
+    0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font: normal 14px Roboto, 'San Francisco', -apple-system, 'Helvetica Neue', SegoeUI, Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: #fff;
+    color: #fff;
+} 
+
+#nav {
+    background: #39007d;
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+}
+nav {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.circle {
+    border: 2px white ridge;
+    padding: 0.7rem 1.2rem;
+    border-radius: 20px;
+}
+.navlist2 {
+    width: 50%;
+    /* justify-content: flex-endz; */
+}
+.navlist2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    /* padding: 0 10px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 590;
+    font-size: 100%;
+}
+#nav-list ul {
+    /* display: flex; */
+    padding: 0 2rem;
+}
+
+#nav-list li {
+    list-style: none;
+    text-decoration: none;
+    /* flex-direction: column; */
+    padding: 10px;
+}
+
+nav img{
+    width: 200px;
+}
+
+#container {
+    margin: 2rem 1.5rem;
+    border-radius: 1rem;
+    background-color: #7d2eff;
+    /* height: 100vw; */
+    /* align-items: center; */
+}
+#inner-container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#container h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 90px;
+    /* width: 50px; */
+    /* margin-bottom: 1.7rem; */
+    /* display: flex; */
+    padding-top: 50px;
+} 
+#inner-container img {
+    width: 70rem;
+    margin: 2rem;
+    border-radius: 20px;
+}
+.new-mail-coming-soon {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background: #39007d;
+    padding: 12px 0;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.footer li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 30px;
+}
+.footer a {
+    color: white;
+}
+.footer img {
+    width: 30px;
+}
+
+.desktop-universal-header {
+    float: right;
+    font-size: 13px;
+    margin-right: 50px
+}
+
+.nav2{
+    padding: 10px;
+}
+.nav2 img{
+    width: 200px;
+}
+.nav2 a{
+    color: #0078e7;
+}
+
+.menu-icon a {
+    /* margin-bottom: 100px; */
+    text-align: center;
+    align-items: center;
+    /* display: flex;s */
+    /* flex-direction: row; */
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/* 
+#nav-list {
+    justify-content: space-between;
+    display: none;
+    max-height: 0;
+ 
+    transition: max-height 0.3s ease-out;
+}
+#nav-list.active {
+    display: block;
+ 
+} */
+
+#nav-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+#nav-list.active {
+    max-height: 200px; /* Adjust based on content height */
+}
+
+
+@media (max-width:768px) {
+    nav img{
+        width: 70%;
+    }
+    #inner-container img {
+        width: 90%;
+        margin: 2rem;
+    }
+    #container h1{
+        font-size: 40px;
+    }
+    .menu-icon i{
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        padding-right: 30px;
+        padding-top: 5px;
+    }
+    .footer li {
+        margin: 0 20px;
+    }
+    #hide {
+        display: none;
+    }
+
+    .container-content{
+        display: none;
+    }
+    .container2 {
+        justify-content: center;
+    }
+    .container-form {
+        padding: 5rem 3rem;
+    }
+    .navlist2 ul{
+        display: none;
+    
+    }
+    .navlist2 {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .menu-icon {
+        
+    }
+}
+
+
+
+@media (min-width:769px) {
+    #inner-container img {
+        width: 92%;
+        margin: 2rem;
+    }
+    #hide {
+        font-size: 25px;
+        font-weight: 500;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0;
+
+    }
+    .new-mail-coming-soon {
+        display: none;
+    }
+    .menu-icon{
+        color: #fff;
+        /* font-size: 20px; */
+        cursor: pointer;
+        padding-right: 20px;
+        padding-top: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+   
+}
+@media (min-width:769px) and (max-width:1200px){
+    body {
+        /* display: none; */
+    }
+    .navlist2{
+        width: 70%;
+        font-size: ;
+    }
+}
+
+
+
+/* Index2 CSS */
+.nav2 {
+    margin: 1.2rem 3rem;
+    margin-right: 0.2rem;
+    /* position: relative; */
+}
+
+.nav2 img {
+    width: 50%;
+}
+.desktop-universal-header {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+.desktop-universal-header a{
+   padding-right: 15px;
+
+}
+.container2 {
+    color: initial;
+    display: flex;
+    margin: 5% 5%;
+}
+.container-content {
+    /* padding-left: 0 10rem; */
+    width: 65%;
+
+}
+
+.container-content2{
+    padding:5% 10%;
+    padding-left: 15%;
+    font-size: 15px;
+}
+.container-content2 p{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.container-form img {
+    width: 35%;
+}
+
+
+.container-form {
+    margin-left: 2rem;
+    padding: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border: 1px ridge black; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 350px;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.3); */
+    border-radius: 5px;
+}
+
+.container-form h2 {
+    padding-top: 2.5rem;
+}
+
+.container-form p{
+    padding-bottom: 4rem;
+}
+
+.container-form form input{
+    width: 90%;
+    padding: 0.7rem;
+    margin: 1rem 0;
+
+}
+
+.button2 {
+    padding: 1rem 2.5rem;
+    color: #fff ;
+    background-color: #1e8ef6;
+    border-radius: 5px;
+    border: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    width: 90%;
+    border-radius: 30px;
+
+}
+
+.form-buttom {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+
+}
+.form-buttom a {
+    padding: 20px;
+    color: #1e8ef6;
+}
+
